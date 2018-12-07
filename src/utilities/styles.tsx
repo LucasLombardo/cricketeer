@@ -31,6 +31,11 @@ const GameBoardStyles = StyleSheet.create({
     marginVertical: 10,
     marginHorizontal: 20,
     borderRadius: 6
+  },
+  main: {
+    flex: 1,
+    display: "flex",
+    flexDirection: "row"
   }
 });
 export { GameBoardStyles };
@@ -49,3 +54,16 @@ const PlayerInitialsStyles = StyleSheet.create({
   }
 });
 export { PlayerInitialsStyles };
+
+const ScoreStyles = StyleSheet.create({
+  container: {
+    display: "flex",
+    flex: 1
+  },
+  score: {
+    color: theme.white,
+    fontSize: 24,
+    textAlign: "center"
+  }
+});
+export { ScoreStyles };
